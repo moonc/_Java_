@@ -1,0 +1,35 @@
+		if( input == 0){
+			System.out.println("Correct");
+			System.out.println("By which pattern is it in ?(use subtract by/ add by and a word number)");
+			pint=in.next();
+				if(pint.equals("subtract by three") || pint.equals("minus three") || pint.equals("deduct three")){
+					System.out.println("Good Job!");
+			}
+		}
+		if(input == 1||input == 2||input == 3||input == 4||input == 5||input == 6){
+			System.out.println("Incorrect.Try again.");
+					System.out.println("What number is next ? ( Hint it's a number between zero and six.)");
+					input = in.nextInt();
+							if( input == 0){
+								System.out.println("Correct");
+								System.out.println("By which pattern is it in ?(use subtract by/ add by and a word number)");
+								pint = in.next();
+									if(pint.equals("subtract by three")|| pint.equals("minus three") || pint.equals("deduct three")){
+										System.out.println("Good Job!");
+								}
+							}
+							if(input == 1||input == 2||input == 3||input == 4||input == 5||input == 6){
+								System.out.println("Incorrect.Try again.");
+								System.out.println("What number is next ? ( Hint it's a number between zero and six.)");
+								input = in.nextInt();
+								if( input == 0){
+									System.out.println("Correct");
+									System.out.println("By which pattern is it in ?(use subtract by/ add by and a word number)");
+									pint = in.next();
+										if(pint.equals("subtract by three")||pint.equals("minus three") || pint.equals("deduct three")){
+											System.out.println("Good Job!");
+									}
+								}
+
+							}
+		}
